@@ -1,0 +1,13 @@
+apiVersion: delta.se/v1alpha1
+kind: Component
+metadata:
+  name: badger
+  description: a real badger
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
+  providesApis:
+    - badger
+    - badgerLights
+    - badger-hello-world
