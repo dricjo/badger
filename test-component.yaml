@@ -4,7 +4,7 @@ metadata:
   name: badger
   description: test project
   annotations:
-    jenkins.io/github-folder: 'user-sync'
+    jenkins.io/github-folder: 'deltaprojects/user-sync'
   tags:
     - java
     - data
