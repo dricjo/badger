@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: badger
   description: test project
+  annotations:
+    jenkins.io/github-folder: 'user-sync'
   tags:
     - java
     - data
