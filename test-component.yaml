@@ -4,6 +4,8 @@ metadata:
   name: badger
   description: test project
   annotations:
+    github.com/project-slug: dricjo/badger
+    backstage.io/techdocs-ref: github:https://github.com/dricjo/badger
     jenkins.io/github-folder: 'user-sync'
   tags:
     - java
