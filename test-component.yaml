@@ -1,15 +1,12 @@
-apiVersion: delta.se/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: badger
-  description: a real badger
-  annotations:
-    jenkins.io/github-folder: 'user-sync'
+  description: test project
+  tags:
+    - java
+    - data
 spec:
-  type: service
+  type: library
   lifecycle: experimental
-  owner: team-c
-  providesApis:
-    - badger
-    - badgerLights
-    - badger-hello-world
+  owner: delta projects
